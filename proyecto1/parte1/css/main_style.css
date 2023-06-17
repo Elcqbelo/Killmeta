@@ -1,0 +1,243 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/****************
+    Header + Nav
+*****************/
+
+header {
+    padding: 1em 0;
+    margin-bottom: 1em;
+    background: #05282b;
+}
+
+.navvv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__link--button {
+    padding: .25em 1em;
+    background: #fff;
+    color: black;
+    border-radius: 10em;
+}
+
+.nav__item {
+    margin-right: 1em;
+}
+
+.nav__link:hover {
+    opacity: .9;
+    text-decoration: none;
+}
+
+
+/*********************
+    Asides + Section
+*********************/
+
+.principal {
+    width: 42em;
+    padding: 4em;
+    padding-bottom: 10.5em;
+    background: rgb(251, 248, 248);
+    background: linear-gradient(180deg, rgba(251, 248, 248, 1) 0%, rgba(236, 224, 220, 1) 48%, rgba(231, 219, 215, 1) 50%, rgba(101, 98, 96, 1) 100%);
+    border-radius: 1em;
+}
+
+.left {
+    width: 100%;
+    padding-bottom: 21em;
+    background: rgb(251, 248, 248);
+    background: linear-gradient(180deg, rgba(251, 248, 248, 1) 0%, rgba(236, 224, 220, 1) 48%, rgba(231, 219, 215, 1) 50%, rgba(101, 98, 96, 1) 100%);
+    padding: 2em;
+}
+
+.rigth {
+    width: 100%;
+    padding: 2em;
+    padding-bottom: 4em;
+    background: rgb(251, 248, 248);
+    background: linear-gradient(180deg, rgba(251, 248, 248, 1) 0%, rgba(236, 224, 220, 1) 48%, rgba(231, 219, 215, 1) 50%, rgba(101, 98, 96, 1) 100%);
+}
+
+.btn-circle.btn-xl {
+    width: 6em;
+    height: 6em;
+    padding: 10px 16px;
+    margin-top: 100%;
+    background-color: #05282b;
+    border-radius: 35px;
+    font-size: .7em;
+    text-align: center;
+}
+
+
+/**************
+    Footer
+**************/
+
+footer {
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.footer-con-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+    /*Con este "min()" y su contenido, le digo que se quede siempre entre un minimo del 90% de la pantalla y un maximo de 70.5rem. Es responsive. Siempre deja entonces un padding en los bordes de la pantall.*/
+}
+
+.footer-uno {
+    margin-right: 2em;
+    text-align: center;
+}
+
+.footer-dos {
+    margin-right: 0;
+    text-align: center;
+}
+
+
+/**************************************
+    Display none a todo lo responsive
+**************************************/
+
+hr,
+#header__celu,
+#c-celu {
+    display: none;
+}
+
+
+/***********************
+    Media responsive
+************************/
+@media(max-width:800px) {
+
+    /*oculto el header de la pc y muestro el del celu*/
+    #header__pc,
+    #c-none {
+        display: none;
+    }
+
+    /*muestro mi header y section (c-celu). Si mi section fuera flex, queda un margin fijo que rompe el responisve*/
+    #header__celu {
+        display: flex;
+        background-color: black;
+    }
+
+    #c-celu {
+        display: block;
+        justify-content: center;
+    }
+
+    /********
+      Header
+    *********/
+
+    .navvv {
+        display: block;
+    }
+
+    .nav__list {
+        display: block;
+    }
+
+    .nav__item {
+        margin-bottom: 1.5em;
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    /********************
+      Asides responsivos
+    *********************/
+
+    #aside_nosotros_res,
+    #aside_proyecto_res {
+        display: block;
+        padding: 1em;
+        background-color: #fff;
+        color: black;
+        border-radius: 1em;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .left_res {
+        display: block;
+        width: 80%;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 2em;
+    }
+
+    .rigth_res {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    hr {
+        display: flex;
+        width: 100%;
+        background-color: grey;
+    }
+
+    /**********************
+        Section responsivo
+    ***********************/
+
+    .principal {
+        width: 80%;
+        margin-left: 1em;
+        margin-left: 10%;
+        margin-right: 15%;
+        padding: 2em;
+        border-radius: 1em;
+    }
+}
+
+
+
+/******************************
+    Decoraciones irrelevantes
+*******************************/
+#link_color {
+    color: black;
+}
+
+#link_color:hover {
+    color: #4781dd;
+    text-decoration: none;
+    list-style: none;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.list-style-none:hover {
+    text-decoration: none;
+}
