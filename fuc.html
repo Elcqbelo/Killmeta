@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS & Bootstrap-->
+    <link rel="stylesheet" href="css/fuc.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Holtwood+One+SC&family=Italianno&family=Montserrat&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--JS-->
+    <script defer src="js/fuc.js"></script>
+    <script defer src="js/jquery-3.6.0.min.js"></script>
+    <title>⚪⚫</title>
+</head>
+<body style="background: rgb(7, 7, 0); display: none;">
+<header>
+    <button onclick="mostrar2020($('#mostrar_div_2020'))" class="top-btns">2020</button>
+    <button type="button" style="visibility: hidden;">non</button>
+    <button onclick="mostrar2019($('#mostrar_div_2019'))" class="top-btns">2019</button>
+    <button type="button" style="visibility: hidden;">non</button>
+    <button onclick="mostrar2017($('#mostrar_div_2017'))" class="top-btns">2017</button>
+    <button type="button" style="visibility: hidden;">non</button>
+    <button onclick="mostrar2016($('#mostrar_div_2016'))" class="top-btns">2016</button>
+    <button type="button" style="visibility: hidden;">non</button>
+    <button onclick="mostrar2015($('#mostrar_div_2015'))" class="top-btns">2015</button>
+    <button type="button" style="visibility: hidden;">non</button>
+    <button onclick="mostrardaniBomba($('#mostrar_div_dani-bomba'))" class="top-btns" id="top-btns-dani-responsive">Dani la bomba</button>
+    <button type="button" style="visibility: hidden;">non</button>
+    <button onclick="mostrarLigaArg($('#mostrar_div_liga-arg'))" class="top-btns" id="top-btns-liga-responsive">Liga heroica argentina</button>
+</header>
+
+<div style="padding: 2em; text-align: center;">
+    <button class="volver-btn"><a href="./index.html" class="volver-btn-a">Volver a la página principal</a></button>
+</div>
+
+
+<!--2020-->
+<div class="container" id="mostrar_div_2020" style="display: none;">
+    <h1 class="text-center" style="color: #fff;" id="mostrar_h1">2020</h1>
+    <div class="img-contenedor"> 
+        <img src="fuc/2020/La venganza de Caco..jpg" class="d-block w-100" alt="caco, venganza">
+    </div>
+    <div class="img-contenedor">
+        <img src="fuc/2020/japonesa2020.jpeg" class="d-block w-100" alt="japonesa">
+    </div>
+    <div class="img-contenedor">
+        <img src="fuc/2020/sketch .jpg" class="d-block w-100" alt="sketch1">
+    </div>
+    <div class="img-contenedor">
+        <img src="fuc/2020/sketch 7.jpg" class="d-block w-100" alt="sketch2">
+    </div>
+    <div class="img-contenedor">
+        <img src="fuc/2020/Sketch n3.jpg" class="d-block w-100" alt="sketch3">
+    </div>
+
+    <!-- Actualizacion 2022-->
+    <div class="img-contenedor">
+        <img src="fuc/2020/Agregara dibujos 2020/pico asustado.jpg" class="d-block w-100" alt="pico1">
+    </div>
+    <div class="img-contenedor">
+        <img src="fuc/2020/Agregara dibujos 2020/pico cayendo.jpg" class="d-block w-100" alt="pico2">
+    </div>
+    <div class="img-contenedor">
+        <img src="fuc/2020/Agregara dibujos 2020/Pico levantando oso.jpg" class="d-block w-100" alt="pico3">
+    </div>
+    <div class="img-contenedor">
+        <img src="fuc/2020/Agregara dibujos 2020/pico muy enojado.PNG.jpg" class="d-block w-100" alt="pico4">
+    </div>
+    <div class="img-contenedor">
+        <img src="fuc/2020/Agregara dibujos 2020/pico reccibiendo regalo.jpg" class="d-block w-100" alt="pico5">
+    </div>
+    <div class="img-contenedor">
+        <img src="fuc/2020/Agregara dibujos 2020/pico recibiendo peluche.png.jpg" class="d-block w-100" alt="pico6">
+    </div>
+    <div class="img-contenedor">
+        <img src="fuc/2020/Agregara dibujos 2020/pico saltando.jpg" class="d-block w-100" alt="pico7">
+    </div>
+    <div class="img-contenedor">
+        <img src="fuc/2020/Agregara dibujos 2020/Pico triste.jpg" class="d-block w-100" alt="pico8">
+    </div>
+</div>
+<!--Fin 2020-->
+
+<!--2019-->
+<div class="container" id="mostrar_div_2019" style="display: none;">
+    <h1 class="text-center" style="color: #fff;" id="mostrar_h1">2019</h1>
+        <div class="img-contenedor"> 
+            <img src="fuc/2019/Ding Ding DING.jpg" class="d-block w-100" alt="tuco, salamanca, breaking bad">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2019/Militar y abuelas.jpg" class="d-block w-100" alt="abuelas, plaza de mayo, militares, dictadura">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2019/naranja y verde.jpg" class="d-block w-100" alt="naranja, verde, hombres, bellos">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2019/rubia tristona.jpg" class="d-block w-100" alt="rubia, llora">
+        </div>
+</div>
+<!--Fin 2019-->
+
+<!--2017-->
+<div class="container" id="mostrar_div_2017" style="display: none;">
+    <h1 class="text-center" style="color: #fff;" id="mostrar_h1">2017</h1>
+        <div class="img-contenedor"> 
+            <img src="fuc/2017/plagiame esta.jpg" class="d-block w-100" alt="plagiame esta, nik, gaturro, garfield">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2017/Don euralio contra la patria.jpg" class="d-block w-100" alt="don euralio">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2017/en cuanto llegen, me habré ido..jpg" class="d-block w-100" alt="me habre ido">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2017/haz bien sin mirar a quien..jpg" class="d-block w-100" alt="haz bien sin mirar a quien">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2017/nicotina .jpg" class="d-block w-100" alt="nicotina">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2017/caratula de plastica 3er año.jpg" class="d-block w-100" alt="caratula, plastica">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2017/soñé con Grecia y Roma.jpg" class="d-block w-100" alt="grecia, roma">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2017/teatro feo.jpg" class="d-block w-100" alt="teatro, feo">
+        </div>
+</div>
+<!--Fin 2017-->
+
+<!--2016-->
+<div class="container" id="mostrar_div_2016" style="display: none;">
+    <h1 class="text-center" style="color: #fff;" id="mostrar_h1">2016</h1>
+        <div class="img-contenedor"> 
+            <img src="fuc/2016/acabose de climax..jpg" class="d-block w-100" alt="fin, climax">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2016/Banalidad.jpg" class="d-block w-100" alt="banal">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2016/caco pega.jpg" class="d-block w-100" alt="caco, pegar">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2016/caratula-2do.jpg" class="d-block w-100" alt="caratula, plastica, 2do año">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2016/Ideas de luz.jpg" class="d-block w-100" alt="ideas, luz">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2016/simetria simple de recortes.jpg" class="d-block w-100" alt="simetria, simple">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2016/Truco post-meditativo.jpg" class="d-block w-100" alt="truco, meditacion">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2016/un jamaiquino.jpg" class="d-block w-100" alt="jamaica">
+        </div>
+</div>
+<!--Fin 2016-->
+
+<!--2015-->
+<div class="container" id="mostrar_div_2015" style="display: none;">
+    <h1 class="text-center" style="color: #fff;" id="mostrar_h1">2015</h1>
+        <div class="img-contenedor">
+            <img src="fuc/2015/abstracción.jpg" class="d-block w-100" alt="abstraccion, a">
+        </div>
+        <div class="img-contenedor"> 
+            <img src="fuc/2015/abstracción-b.jpg" class="d-block w-100" alt="abstraccion, b">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2015/abstracción-c.jpg" class="d-block w-100" alt="abstraccion, c">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2015/abstracción-d.jpg" class="d-block w-100" alt="abstraccion, d">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2015/abstracción-de-complementos.jpg" class="d-block w-100" alt="abstraccion, complementos">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2015/abstracción-e.jpg" class="d-block w-100" alt="abstraccion, e">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2015/abstracción-f.jpg" class="d-block w-100" alt="abstraccion, f">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2015/bigger-dick.jpg" class="d-block w-100" alt="big, dick">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2015/continuidad-pobre.jpg" class="d-block w-100" alt="continuidad, pobre">
+        </div>
+        <div class="img-contenedor"> 
+            <img src="fuc/2015/la-medicina-cura.jpg" class="d-block w-100" alt="medicina, cura, ciencia, dios, religion, no">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2015/pobre-continuidad.jpg" class="d-block w-100" alt="pobre, continuidad">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2015/simetria-simple.jpg" class="d-block w-100" alt="simetria, simple">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/2015/valle-de-la-luna.jpg" class="d-block w-100" alt="valle, luna">
+        </div>
+</div>
+<!--Fin 2015-->
+
+<!--Dani la bomba-->
+<div class="container" id="mostrar_div_dani-bomba" style="display: none;">
+    <h1 class="text-center" style="color: #fff;" id="mostrar_h1">Dani es la bomba</h1>
+        <div class="img-contenedor"> 
+            <img src="fuc/daniel_es_la_bomba/1.jpg" class="d-block w-100" alt="daniel_es_la_bomba/1">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/daniel_es_la_bomba/2.jpg" class="d-block w-100" alt="daniel_es_la_bomba/2">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/daniel_es_la_bomba/3.jpg" class="d-block w-100" alt="daniel_es_la_bomba/3">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/daniel_es_la_bomba/4.jpg" class="d-block w-100" alt="daniel_es_la_bomba/4">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/daniel_es_la_bomba/5.jpg" class="d-block w-100" alt="daniel_es_la_bomba/5">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/daniel_es_la_bomba/6.jpg" class="d-block w-100" alt="daniel_es_la_bomba/6">
+        </div>
+        <div class="img-contenedor">
+            <img src="fuc/daniel_es_la_bomba/7.jpg" class="d-block w-100" alt="daniel_es_la_bomba/7">
+        </div>
+</div>
+<!--Fin Dani la bomba-->
+
+<!--Liga heroica argentina-->
+<div class="container" id="mostrar_div_liga-arg" style="display: none;">
+    <div class=row1>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"  data-interval="false">
+        <div class="container">
+            <div class=row>
+                <div class="carousel-inner">
+                    <div class="carousel-item active"> 
+                        <img src="./fuc/liga_heroica_arg/1.jpg" class="d-block w-100" alt="liga_heroica_arg/1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/2.jpg" class="d-block w-100" alt="liga_heroica_arg/2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/3.jpg" class="d-block w-100" alt="liga_heroica_arg/3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/4.jpg" class="d-block w-100" alt="liga_heroica_arg/4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/5.jpg" class="d-block w-100" alt="liga_heroica_arg/5">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/6.jpg" class="d-block w-100" alt="liga_heroica_arg/6">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/7.jpg" class="d-block w-100" alt="liga_heroica_arg/7">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/8.jpg" class="d-block w-100" alt="liga_heroica_arg/8">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/9.jpg" class="d-block w-100" alt="liga_heroica_arg/9">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/10.jpg" class="d-block w-100" alt="liga_heroica_arg/10">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/11.jpg" class="d-block w-100" alt="liga_heroica_arg/11">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/12.jpg" class="d-block w-100" alt="liga_heroica_arg/12">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/13.jpg" class="d-block w-100" alt="liga_heroica_arg/13">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/14.jpg" class="d-block w-100" alt="liga_heroica_arg/14">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/15.jpg" class="d-block w-100" alt="liga_heroica_arg/15">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/16.jpg" class="d-block w-100" alt=liga_heroica_arg/16">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/17.jpg" class="d-block w-100" alt="liga_heroica_arg/17">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./fuc/liga_heroica_arg/18.jpg" class="d-block w-100" alt="liga_heroica_arg/18">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Controles-->
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+        </a> 
+
+            <br>
+            <br>
+            <div class="container">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="15"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="16"></li>
+                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="17"></li>
+                </ol>
+            </div>
+    </div>
+    </div>
+</div> 
+<!--Fin del carousel-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* en caso de que los quiera dentro del dibujo y negros (raro, podria usar esto para el media)
+ .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+} */
+
+#mostrar_h1{
+    font-family: 'Italianno', cursive; 
+    font-size: 4em;
+}
+
+
+.carousel {
+    margin: 1em;
+}
+
+/*a estos dos les tengo que bajar el -5em en el media porque sino no se ve. Mientras mas cerca del 0, mas cerca del dibujo*/
+.carousel-control-prev {
+    margin-left: -5em;
+}
+
+.carousel-control-next {
+    margin-right: -5em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    /*size */
+    height: 3em;
+    width: 3em;
+    /*color */
+    background: #080000 none repeat scroll 0 0;
+    opacity: 0.5;
+    /*shape border*/
+    border: 0 none;
+    border-radius: 50%;
+    /*symbol */
+    color: #fff;
+    line-height: 70px;
+    /*vertical position */
+    top: 50%;
+}
+
+.carousel-item {
+    -webkit-transition: -webkit-transform 0.2s ease-in-out !important;
+    -o-transition: -o-transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+
+.btn-circle.btn-xl {
+    width: 6em;
+    height: 6em;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: .7em;
+    text-align: center;
+}
+
+@media(max-width: 800px) {
+    .carousel-control-prev {
+        margin-left: -2.5em;
+    }
+
+    .carousel-control-next {
+        margin-right: -2.5em;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        /*size */
+        height: 0em;
+        width: 2em;
+        /*color */
+        background: #070000 none repeat scroll 0 0;
+        opacity: 0.5;
+        /*shape border*/
+        border: 0 none;
+        border-radius: 50%;
+        /*symbol */
+        color: #fff;
+        line-height: 70px;
+        /*vertical position */
+        top: 50%;
+    }
+}

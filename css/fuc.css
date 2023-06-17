@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Botones*/
+header{
+    padding: 1em;
+    text-align: center;
+}
+.top-btns{
+    border: 2px solid rgb(3, 3, 3); 
+    border-radius: 1em; 
+    font-size: large;
+    font-weight: 500;
+    padding: .2em;
+}
+.top-btns:hover{
+    transform: scale(1.5);
+}
+
+/*Boton para volver*/
+.volver-btn{
+    border: 2px solid rgb(3, 3, 3); 
+    border-radius: 1em; 
+    font-size: large;
+    font-weight: 500;
+    padding: .2em;
+}
+.volver-btn:hover{
+    opacity: 0.8;
+}
+.volver-btn-a{
+    text-decoration: none;
+    color: black;
+}
+.volver-btn-a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/*contenedor de imagenes que no son carousel*/
+.img-contenedor{
+    margin-top: 1em;
+    width: 80%;
+}
+#mostrar_div_2020,
+#mostrar_div_2019,
+#mostrar_div_2017,
+#mostrar_div_2016,
+#mostrar_div_2015{
+    margin-left: 15%;
+}
+#mostrar_div_dani-bomba{
+    margin-left: 18%;
+}
+
+/*CARROUSEL*/
+#mostrar_h1{
+    font-family: 'Italianno', cursive; 
+    font-size: 4em;
+    width: 80%;
+}
+
+.carousel {
+    margin: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    /*size */
+    height: 3em;
+    width: 3em;
+    /*color */
+    background: #0800001a none repeat scroll 0 0;
+    opacity: 0.5;
+    /*shape border*/
+    border: 0 none;
+    border-radius: 50%;
+    /*symbol */
+    color: #fff;
+    line-height: 70px;
+    /*vertical position */
+    top: 50%;
+    margin-top: 25em;
+    /*horizontal position. Mientras mas cerca del 0, mas cerca del dibujo*/
+    margin-right: -6em;
+    margin-left: -6em;
+}
+
+.carousel-item {
+    -webkit-transition: -webkit-transform 0.2s ease-in-out !important;
+    -o-transition: -o-transform 0.2s ease-in-out !important;
+    transition: transform 0.2s ease-in-out !important;
+}
+
+.btn-circle.btn-xl {
+    width: 6em;
+    height: 6em;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: .7em;
+    text-align: center;
+}
+
+@media(max-width: 800px) {
+    /*botones header responsive*/
+    .top-btns{
+        display: block;
+        margin-left: 40%;
+    }
+    #top-btns-dani-responsive{
+        margin-left: 30%;
+    }
+    #top-btns-liga-responsive{
+        margin-left: 20%;
+    }
+
+    /*imagenes centradas*/
+    #mostrar_div_2020,
+    #mostrar_div_2019,
+    #mostrar_div_2017,
+    #mostrar_div_2016,
+    #mostrar_div_2015,
+    #mostrar_div_dani-bomba{
+        margin-left: 10%;
+    }
+
+    /*carousel liga arg*/
+    .carousel-control-prev {
+        margin-left: -2.5em;
+    }
+
+    .carousel-control-next {
+        margin-right: -2.5em;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        /*size */
+        height: 0em;
+        width: 2em;
+        /*color */
+        background: #070000 none repeat scroll 0 0;
+        opacity: 0.5;
+        /*shape border*/
+        border: 0 none;
+        border-radius: 50%;
+        /*symbol */
+        color: #fff;
+        line-height: 70px;
+        /*vertical position */
+        top: 50%;
+        margin-top: 7em;
+    }
+}

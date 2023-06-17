@@ -1,0 +1,105 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.top-gif{
+  height: 700px;
+  width: 100%;
+}
+
+/*Galeria de videos*/
+.mis-animaciones-h1{
+  color: #fff;
+  font-family: 'Holtwood One SC', serif;
+  padding-bottom: 1em;
+}
+
+.pb-video-container {
+  padding-top: 20px;
+  background: #000305;
+  display: flex;
+  justify-content: center;
+}
+
+.video-card {
+  margin-left: 1em;
+  margin-bottom: 1em;
+  border: 2px solid grey;
+  height: 50%;
+}
+
+.video-card-h2 {
+  color: #fff;
+  font-family: 'Holtwood One SC', serif;
+  text-align: center;
+  padding-bottom: .5em;
+}
+
+.pb-video {
+  margin-left: 1em;
+}
+
+.different-small-video{
+  width: 480px;
+}
+.small-video{
+  width: 480px; 
+  height: 342px;
+}
+.large-video{
+  width: 980px;
+}
+
+/*Galeria de gifs*/
+.container-gif{
+  background-color: black;
+  display: flex;
+}
+
+/*Boton para volver*/
+.volver-btn{
+  border: 2px solid #fff; 
+  border-radius: 1em; 
+  font-size: large;
+  font-weight: 700;
+}
+.volver-btn:hover{
+  opacity: 0.8;
+}
+.volver-btn-a{
+  text-decoration: none;
+  color: black;
+}
+.volver-btn-a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+@media(max-width:800px) {
+  .top-gif{
+    height: 100%;
+    width: 100%;
+  }
+
+  #responsive-video-card-h2{
+    font-size: larger;
+  }
+  #responsive-mis-animaciones-h1{
+    font-size: 2em;
+  }
+
+  /*Galeria de videos responsiva*/
+  .pb-video-container{
+    display: block;
+  }
+  .video-card{
+    width: 300px;
+  }
+  .different-small-video,
+  .small-video,
+  .large-video{
+    width: 100%;
+  }
+}
+

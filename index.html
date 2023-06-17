@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Requiered meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO-->
+    <meta name="description" content="El chico que brilla en la oscuridad es una apasionante novela grafica que escribi a lo largo de años. Ademas, podras ver mis comics, animaciones y textos propios.">
+    <meta name="keywords" content="Novela grafica, comics argentinos, animaciones argentinas, trabajos de la fuc, chicho que brilla en la oscuridad">
+    
+    <!--CSS and Bootstrap-->
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Holtwood+One+SC&family=Italianno&family=Montserrat&family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <!--JS and jQuery-->
+    <script defer src="js/jquery-3.6.0.min.js"></script>
+    <script defer src="js/main_botones.js"></script>
+    <title>----- ⚫⚪</title>
+</head>
+<body style="background-image: url('imagenes/gris_d.jpg');"></body>
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
+
+<!-- 
+  ****       *****
+  *   *     *
+  ****      *
+  *         *
+  *          *****
+-->
+
+<!--Navbar de PC-->
+    <header id="header__pc" style="background-color: black; text-decoration: none; list-style: none;">
+        <div class="container">
+            <nav class="navvv"> 
+            <div>      
+                <ul class="nav__list" style="color: #0f0707;">
+                    <li class="nav__item" style="color: #0f0707;"><a href="#" class="nav__link nav__link--button" id="btn-autor" style="color: #0f0707;" onclick="toggle($('#aside_nosotros'))">Sobre el autor</a></li>
+                </div>
+                <div>                       
+                    <li class="nav__item"><a href="#footer" class="nav__link nav__link--button" id="btn-seguime">Seguime en redes!</a></li>
+                </div>
+                <div>
+                    <li class="nav__item"><a href="#" class="nav__link nav__link--button" id="btn-proyecto" onclick="toggle($('#aside_proyecto'))">Conocé mis proyectos</a></li>
+                </div>
+            </ul>
+            </nav>
+        </div>
+    </header>
+
+<!--
+    *****   *****   *      *       *
+    *       *       *      *       *
+    *       *****   *      *       *
+    *       *       *       *     *
+    *****   *****   *****     ***
+-->
+
+
+<!--Navbar para el celu-->
+<header id="header__celu">
+    <div class="container">
+        <nav class="navvv"> 
+            <ul class="nav__list">
+                <div>
+                    <li class="nav__item"><a href="#" class="nav__link nav__link--button" id="#btn-autor-res"  onclick="toggle($('#aside_proyecto_res'))">Conocé mis proyectos</a></li>
+                    <div class="container">
+                        <aside class="rigth_res" id="aside_proyecto_res" style="display: none;">
+                            <h4>Capitulos:</h4>
+                            <ul class="list-style-none">
+                                <a href="cap1.html" id="link_color"><li>Capitulo 1</li></a>
+                                <a href="cap2.html" id="link_color"><li>Capitulo 2</li></a>
+                                <a href="cap3.html" id="link_color"><li>Capitulo 3</li></a>
+                                <a href="cap4.html" id="link_color"><li>Capitulo 4</li></a>
+                                <a href="cap5.html" id="link_color"><li>Capitulo 5</li></a>
+                                <a href="cap6.html" id="link_color"><li>Capitulo 6</li></a>
+                                <a href="cap7.html" id="link_color"><li>Capitulo 7</li></a>
+                            </ul>
+                            <h4 align="left">Otros trabajos mios</h4>
+                            <ul>
+                                <a href="fuc.html" class="list-style-none" id="link_color"><li>Dibujos, pinturas y cuadros</li></a>
+                                <a href="animaciones.html" class="list-style-none" id="link_color"><li>Animaciones</li></a>
+                                <a href="textos.html" class="list-style-none" id="link_color"><li>Textos</li></a>
+                                <a href="videos_sector_nuevo.html" class="list-style-none" id="link_color"><li>Videos</li></a>
+                            </ul>
+                            <h4>Proyecto 1</h4>
+                            <ul>
+                                <a href="./proyecto1/parte1/p1_parte1_cap1.html" class="list-style-none" id="link_color"><li>Primera parte</li></a>
+                                <a href="./proyecto1/parte2/p1_parte2_cap1.html" class="list-style-none" id="link_color"><li>Segunda parte</li></a>
+                            </ul>
+                            <h4 align="left">Trabajos mandados por la gente <a href="#" class="list-style-none" >aquí</a></h4>
+                        </aside>
+                        <hr style="height:1px">
+                    </div>    
+                <div style="display: block;">      
+                    <li class="nav__item"><a href="#" class="nav__link nav__link--button" id="#btn-proyecto-res"  onclick="toggle($('#aside_nosotros_res'))">Sobre el autor</a></li>    
+                        <aside class="left_res" id="aside_nosotros_res" style="display: none;">
+                            <a href="sobre_simon.html" id="link_color"><h4>Sobre el autor</h4></a>
+                            <a href="https://www.linkedin.com/in/franciscoallende/" target="_blank" id="link_color"><h4>Sobre el diseñador del sitio web</h4></a>
+                        </aside>
+                    <hr style="height:1px">         
+                </div>
+                <div class="container">                       
+                    <li class="nav__item"><a href="#footer" class="nav__link nav__link--button" id="btn-seguime-celu">Seguime en redes!</a></li>
+                    <!-- <hr style="height:1px; width:100%"> -->
+                </div>
+            </div>
+            </ul>
+        </nav>
+    </div>
+</header> 
+<!--Resto del sitio en celu-->
+<div style="margin: 0;" id="c-celu">
+    <section class="principal" style="display: none;">
+        <h1 align="center" class="h1__section">El chico que brilla en la oscuridad</h1>
+        <p style="font-size: large;">El chico que brilla en la oscuridad es una novela gráfica.<a href="./proyecto1/parte1/p1_parte1_cap1.html" id="a-text"> Un proyecto que había realizado entre el 2013-2016</a> (de los 12 a los 15 años aproximadamente). Realicé un trabajo extenso que me dedique a mi mismo. Me hizo feliz haberlo terminado. Hoy en día busco reescribir la obra, de una manera más limpia de errores y más inteligible para el público. Solo puedo agradecer tanto la presencia de ojos con los cuales vigilar a nuestro protagonista. Tener lectores es una razón suficiente por la cual despertarse en la mañana con una sonrisa automática. Gracias.</p>
+        <h4 style="text-align: center;" class="h1__section"><a href="./cap1.html" id="a-text">Respecto a la obra</a></h4> 
+        <p style="font-size: large;">Nos sumergimos en el mundo de nuestro protagonista llamado "__", en la Argentina de 1995 hasta 2025 . "__" es capaz de crecer, aprender y dudar. Que el/la lector/a lo siga con interés y contemple sus hazañas.</p>
+        <br>
+        <p style="text-align: center;"><strong>NO recomiendo LEER SI sos emocionalmente sensible o tendés a deprimirte de manera fuerte y fácil</strong></p>
+    </section>
+</div>
+<!--Fin del sitio para el celu--> 
+
+<!--
+  ****       *****
+  *   *     *
+  ****      *
+  *         *
+  *          *****
+-->
+
+<!--Main con los dos asides y el section para la PC-->
+    <main class="container d-flex" style="margin-bottom: 1em;">
+
+        <!--Aside con info sobre nosotros-->
+        <div class="container" id="c-none">
+            <aside class="left" id="aside_nosotros" style="display: none;">
+                <a href="sobre_simon.html" id="link_color"><h4>Sobre el autor</h4></a>
+                <br><br>
+                <a href="https://www.linkedin.com/in/franciscoallende/" target="_blank" id="link_color"><h4>Sobre el diseñador del sitio web</h4></a>
+                <p align="center" id="left-aside-bottom"> <button type="button" class="btn btn-outline-dark btn-circle btn-xl" onclick="ocultar($('#aside_nosotros'))"><img src="imagenes/contacto/flecha_blanca.png" width="30em"></button></p>
+            </aside>
+        </div>
+
+        <!--Section con data general del comic-->
+        <div class="container" id="c-none">
+            <section class="principal" style="display: none;">
+                <h1 align="center" class="h1__section">El chico que brilla en la oscuridad</h1>
+                <p style="font-size: large;">El chico que brilla en la oscuridad es una novela gráfica.<a href="./proyecto1/parte1/p1_parte1_cap1.html" id="a-text"> Un proyecto que había realizado entre el 2013-2016</a> (de los 12 a los 15 años aproximadamente). Realicé un trabajo extenso que me dedique a mi mismo. Me hizo feliz haberlo terminado. Hoy en día busco reescribir la obra, de una manera más limpia de errores y más inteligible para el público. Solo puedo agradecer tanto la presencia de ojos con los cuales vigilar a nuestro protagonista. Tener lectores es una razón suficiente por la cual despertarse en la mañana con una sonrisa automática. Gracias.</p>
+                <h4 style="text-align: center;" class="h1__section"><a href="./cap1.html" id="a-text">Respecto a la obra</a></h4> 
+                <p style="font-size: large;">Nos sumergimos en el mundo de nuestro protagonista llamado "__", en la Argentina de 1995 hasta 2025 . "__" es capaz de crecer, aprender y dudar. Que el/la lector/a lo siga con interés y contemple sus hazañas.</p>
+                <br>
+                <p style="text-align: center;"><strong>NO recomiendo LEER SI sos emocionalmente sensible o tendés a deprimirte de manera fuerte y fácil</strong></p>
+            </section>
+        </div>
+
+        <!--Aside con los capitulos-->
+        <div class="container" id="c-none">
+            <aside class="rigth" id="aside_proyecto" style="display: none;">
+                <h4>Capitulos:</h4>
+                <ul class="list-style-none" style="font-family: Courier, "Lucida Console", monospace">
+                    <a href="cap1.html" class="list-style-none" id="link_color"><li>Capitulo 1</li></a>
+                    <a href="cap2.html" class="list-style-none" id="link_color"><li>Capitulo 2</li></a>
+                    <a href="cap3.html" class="list-style-none" id="link_color"><li>Capitulo 3</li></a>
+                    <a href="cap4.html" class="list-style-none" id="link_color"><li>Capitulo 4</li></a>
+                    <a href="cap5.html" class="list-style-none" id="link_color"><li>Capitulo 5</li></a>
+                    <a href="cap6.html" class="list-style-none" id="link_color"><li>Capitulo 6</li></a>
+                    <a href="cap7.html" class="list-style-none" id="link_color"><li>Capitulo 7</li></a>
+                </ul>
+                <h4 align="left">Otros trabajos mios</h4>
+                <ul class="list-style-none">
+                    <a href="fuc.html" class="list-style-none" id="link_color"><li  style="margin-bottom: .5em;">Dibujos, pinturas y cuadros</li></a>
+                    <a href="animaciones.html" class="list-style-none" id="link_color"><li>Animaciones</li></a>
+                    <a href="textos.html" class="list-style-none" id="link_color"><li>Textos</li></a>
+                    <a href="videos_sector_nuevo.html" class="list-style-none" id="link_color"><li>Videos</li></a>
+                </ul>
+                <h4>Proyecto 1</h4>
+                <ul>
+                    <a href="./proyecto1/parte1/p1_parte1_cap1.html" class="list-style-none" id="link_color"><li>Primera parte</li></a>
+                    <a href="./proyecto1/parte2/p1_parte2_cap1.html" class="list-style-none" id="link_color"><li>Segunda parte</li></a>
+                </ul>
+                <h4 align="left">Trabajos mandados por la gente <br><a href="#" style="color: #fff; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">aquí</a></h4>
+                <p align="center"> <button type="button" class="btn btn-outline-dark btn-circle btn-xl" onclick="ocultar($('#aside_proyecto'))"><img src="imagenes/contacto/flecha_blanca.png" width="30em"></button></p>
+            </aside>
+        </div>
+    </main>
+<!--Fin del main y del sitio para PC-->
+
+<!--Incio footer universal, para pc y celu-->
+    <footer style="background-color: #0f0707; color: #fff;" id="footer">
+        <div class="footer-con-flex">
+            <div class="split">
+                <div class="footer-uno text-center">
+                    <h3>Mandame tu material y lo publicamos!</h3>
+                    <a href="mailto:simon.hick15@gmail.com"><img src="imagenes/contacto/gmail_blanco.png" width="90em" alt="logo gmail"></a>
+                </div>
+            </div>
+            <div class="split">                  
+                <div class="footer-dos">                          
+                    <h2>Seguime en redes!</h2><br>                          
+                    <a href="https://www.instagram.com/elcqbelo/?hl=es-la" target="_blank"><img src="imagenes/contacto/instagram_logo.png" width="50em" alt="logo instagram"></a>                            
+                    <a href="https://www.facebook.com/profile.php?id=100013562987250" target="_blank"><img src="imagenes/contacto/facebook_blanco_full.png" width="50em" alt="logo facebook"></a>
+                    <!-- <a href="https://twitter.com/FlagsMashupBot/status/1362587724356734980" target="_blank"><img src="imagenes/contacto/tw_blanco.png" width="50em" alt="logo tw"></a>                                                     -->
+                </div>
+            </div>
+        </div>   
+    </footer>
+<!--Fin del footer universal-->
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script> -->
+
+</body>
+</html>

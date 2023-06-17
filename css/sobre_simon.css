@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.all{
+    background: rgb(107, 90, 100);
+    color: black;
+}
+
+.contenedor{
+    margin-top: 7%;
+    margin-bottom: 1em;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    border: 2px solid rgb(41, 32, 32);
+    background: rgb(194, 190, 190);
+}
+
+.profile-pic{
+    width: 35%;
+    padding: 1em;
+}
+
+.first-p-column,
+.second-p-column{
+   padding: 1em;
+   font-size: 1.2em;
+}
+
+/*Boton para volver*/
+.volver-btn{
+    border: 2px solid rgb(3, 3, 3); 
+    border-radius: 1em; 
+    font-size: large;
+    font-weight: 500;
+    padding: .3em;
+}
+.volver-btn:hover{
+    opacity: 0.8;
+}
+.volver-btn-a{
+    text-decoration: none;
+    color: black;
+}
+.volver-btn-a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width:800px) {
+    .contenedor{
+        display: block;
+    }
+    .profile-pic{
+        width: 100%;
+        padding: 1em;
+    }
+    .first-p-column,
+    .second-p-column{
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 1.2em;
+    }
+}
